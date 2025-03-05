@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import "./styles.css";
 
 export default function Home() {
   const [tasks, setTasks] = useState<any[]>([]); // Aufgaben speichern
